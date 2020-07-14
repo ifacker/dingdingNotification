@@ -46,3 +46,5 @@ func main(){
 	fmt.Println(resp1.Status)
 }
 ```
+
+这些只是部分格式，如果有需要，小伙伴们可以添加自己需要的格式即可食用！
