@@ -1,12 +1,12 @@
 # dingdingNotification
 
-###发送加签消息到钉钉机器人
+### 发送加签消息到钉钉机器人
 ```go
 package main
 
 import (
 	"fmt"
-	""
+	"github.com/ifacker/dingdingNotification"
 )
 
 func main(){
@@ -23,9 +23,16 @@ func main(){
 }
 ```
 
-###发送关键字消息到钉钉机器人
+### 发送关键字消息到钉钉机器人
 
 ```go
+package main
+
+import (
+	"fmt"
+	"github.com/ifacker/dingdingNotification"
+)
+
 func main(){
 	//text 格式发送，注意关键词
 	send_text := DingMSG_text("关键词：hello world", true)
